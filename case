@@ -1,0 +1,22 @@
+#!/bin/bash
+s=$1
+case "$s" in
+	ulrich)
+		echo hi ulrich
+		;;	
+	
+	buddy) 
+		echo yoo man 
+		;;
+	python)
+		echo that is my best lan!
+		;;
+	bash)
+		echo i am learning scripting 
+		;;
+
+	*) echo i dont know who you are ;;
+
+esac
+		
+

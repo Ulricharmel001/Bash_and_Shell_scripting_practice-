@@ -1,0 +1,14 @@
+#!/bin/bash
+a=2
+b=2
+if [[ $a == $b ]]; then
+	echo 'a and b are thesame'
+	echo " $a and $b are thesame"
+fi
+a=3
+b=2
+if [[ $a != $b ]]; then
+        echo 'a and b are not  thesame'
+        echo " $a and $b are not  thesame"
+fi
+

@@ -1,0 +1,14 @@
+#!/bin/bash
+greet() {
+	local name=$1
+	echo "hello $name (From function)"
+
+}
+for name  in "$@" ; do
+	greet "$name">> file.txt
+
+done 
+
+var=$(greet ulrich )
+echo "var is $var"
+

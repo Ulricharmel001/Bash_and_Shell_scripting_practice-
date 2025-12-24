@@ -1,0 +1,6 @@
+hello Ulrich (From function)
+hello Fely (From function)
+hello Hans (From function)
+hello Ulrich (From function)
+hello Fely (From function)
+hello Hans (From function)

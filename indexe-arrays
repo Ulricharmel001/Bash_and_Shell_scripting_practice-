@@ -1,0 +1,27 @@
+#!/bin/bash
+fruit=(orange mango avocado Apple)
+echo "0- ${fruit[0]}"
+echo "1- ${fruit[1]}"
+echo "2- ${fruit[2]}"
+echo "3- ${fruit[3]}"
+
+echo "-1 ${fruit[-1]}"
+echo "-2 ${fruit[-2]}"
+
+echo "*: ${fruit[*]}"
+
+echo "@: ${fruit[@]}"
+
+index=2
+echo "index- ${fruit[$index]}"
+echo "index- ${fruit[index]}"
+
+echo "loop over fruit"
+for item in ${fruit[@]};do
+	echo " items is $item"
+
+done
+
+
+
+echo " length of my fruit array is ${#fruit[@]}"
